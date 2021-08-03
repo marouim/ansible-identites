@@ -1,3 +1,10 @@
-- name: creation-usager
-  debug: msg="Usager cree"
+---
+- name: Gestion identite
+  hosts: localhost
+  gather_facts: no
+
+  tasks:
+    - name: Tests debug
+      debug:
+        msg: Ceci est un test
 
